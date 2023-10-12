@@ -13,14 +13,12 @@
 		<!-- Fontawesome Link -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	</head>
-	<body>
-		<img src="./images/spacebackground.jpg">
-
+	<body class="bg-bodycolor">			
 		<div class="container-fluid">
 
 	<!-- Navbar Section Start-->
 		<div class="row">
-			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-customcolor">
 			  <div class="container-fluid">
 			    <a class="navbar-brand" href="#">Navbar</a>
 			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,8 +101,8 @@
 		<!--Trial  Project End -->
 
 		<!-- Project Section Start -->
-				<div id="projects" class="row bg-secondary text-light min-vh-100 p-5">
-					<h2 class="mb-3 text-center">Other Projects</h2>
+				<div id="projects" class="row bg-customcolor2 text-light min-vh-100 p-5 m-3">
+					<h2 class="text-center">Other Projects</h2>
 
 					<!-- Other Projects Section Start -->
 
@@ -163,6 +161,7 @@
 		<!-- Project Section End -->
 
 		<!-- Tools Section Start -->
+				<div class="p-1 m-2">
 		            <div id="tools" class="bg-dark mb-4">
 
 		                <!-- Core Tools Section Start -->
@@ -183,12 +182,12 @@
 		                <h3 class=" text-center mt-3">Other Tools</h3>
 
 		                <div class="d-flex flex-md-column" id="other-tools">
-		                    <div class="d-md-flex justify-content-center" id="tools-1">
+		                    <div class="d-md-flex justify-content-center col-sm-" id="tools-1">
 		                        <img width="150" src="images/logo-mongodb.png"/>
 		                        <img width="150" src="images/logo-nodejs.png"/>
 		                        <img width="150" src="images/logo-expressjs.png"/>
 		                        <img width="150" src="images/logo-react.png"/>
-		                        <img width="150" src="images/logo-heroku.png"/>
+		                        <!-- <img width="150" src="images/logo-heroku.png"/> -->
 		                    </div>
 		                    <div class="d-md-flex justify-content-center mt-3" id="tools-2">
 		                        <img width="150" src="images/logo-git.png"/>
@@ -199,19 +198,19 @@
 		                </div>
 		                <!-- Other Tools Section End -->
 		            </div>
-
+	            </div>
         <!-- Font Awesome -->
         <!-- <a href="https://www.facebook.com/profile.php?id=100009022506552"><i class="fa-brands fa-facebook"></i> -->
 
 		<!-- Location and Contact Section -->
-		<div id="contact" class="row col-12">
+		<div id="contact" class="row">
 			<!-- Location -->
-			<div class="col-xl-6">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.6402706165195!2d121.0567919!3d14.619556899999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7eaa7033e9d%3A0x4c2b052f0644e13a!2sAli%20Mall!5e0!3m2!1sen!2sph!4v1697032731148!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+			<div class="text-center col-lg-4">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.6402706165195!2d121.0567919!3d14.619556899999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7eaa7033e9d%3A0x4c2b052f0644e13a!2sAli%20Mall!5e0!3m2!1sen!2sph!4v1697032731148!5m2!1sen!2sph"></iframe>
+			</div>
 		    <!-- Form Section Start -->
 			    <h2 class="text-center">Contact Me</h2>
-			    <div class="p-5 col-xl-6">
+			    <div class="p-5 col-lg-6">
 
 			    	<div class="mb-3">
 			    	  <label for="exampleFormControlInput1" class="form-label">Name</label>
@@ -242,8 +241,6 @@
 			    	  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
 			    	  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 			    	</div>
-
-			    </div>
 			</div>
 		    <!-- Form Section End -->
 		<!-- Loaction and Contact Section -->
