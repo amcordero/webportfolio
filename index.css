@@ -1,0 +1,24 @@
+*{
+	color: white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-image: url("./images/spacebackground.jpg");
+}
+
+.bg-main {
+	background-color: #2E343C;
+}
+
+div {
+	font-size: 14px;
+}
+
+section {
+	margin: auto;
+}
+
